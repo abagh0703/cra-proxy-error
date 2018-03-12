@@ -1,10 +1,11 @@
-INSTRUCTIONS TO REPRODUCE THE ERROR
+INSTRUCTIONS TO REPRODUCE THE ERROR https://stackoverflow.com/questions/49216757/proxy-error-could-not-proxy-request-getthing-from-myapp-herokuapp-com-to-http
 
 -Clone the repo
 
 -heroku create (some name)
 
 -heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v83 -a (the same some name)
+
 -git push heroku master
 
 
