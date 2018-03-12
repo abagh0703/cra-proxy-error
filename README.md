@@ -1,3 +1,11 @@
+INSTRUCTIONS TO REPRODUCE THE ERROR
+-Clone the repo
+-heroku create (some name)
+-heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v83 -a (the same some name)
+-git push heroku master
+
+
+----
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
